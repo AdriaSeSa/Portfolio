@@ -9,30 +9,19 @@
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Hello Engine",
+    "description": "A 3D game engine made with C++. Includes several features; scripting system, resource manager, custom file format...",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
-    }
+      "width": 180,
+      "height": 120    }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Pirates",
+    "description": "A simple physics-based 2D game. Made with a simple 2D physics engine made by the team!",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "GOTG: The Bet",
-    "description": "3D game developed in 4 months. Completely built with C++, using the home-made game engine \"Hello Engine\".",
-    "image": {
-      "url": "images/features/noun_branding_1885335.svg",
       "width": 180,
-      "height": 120
-    }
+      "height": 120    }
   }
 ]
