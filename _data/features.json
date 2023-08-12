@@ -4,8 +4,8 @@
     "description": "3D game developed in 4 months. Completely built with C++, using the home-made game engine \"Hello Engine\".",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
-      "height": 80
+      "width": 180,
+      "height": 120
     }
   },
   {
@@ -24,6 +24,15 @@
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
       "height": 80
+    }
+  },
+  {
+    "title": "GOTG: The Bet",
+    "description": "3D game developed in 4 months. Completely built with C++, using the home-made game engine \"Hello Engine\".",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 180,
+      "height": 120
     }
   }
 ]
