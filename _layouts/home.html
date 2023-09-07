@@ -47,9 +47,9 @@ bodyClass: "page-home"
 </div>
 -->
 <div class="strip strip-grey">
+  <h1 id = "Projects">Main Projects</h1>
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-      <h1 id = "Projects">Main Projects</h1>
       {% for feature in site.data.features %}
       <div class="col-20 col-md-10 col-lg-5 mb-2">
         <a href= "{{ feature.link }}" >
@@ -65,21 +65,21 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-      <h1 id = "Other Projects">Other Projects</h1>
-      {% for feature in site.data.other %}
-      <div class="col-20 col-md-10 col-lg-5 mb-2">
-        <a href= "{{ feature.link }}" >
-          <div class="feature">
-            <h2 class="feature-title">{{ feature.title }}</h2>
-            <div class="feature-content">{{ feature.description }}</div>
-          </div>
-        </a>
-      </div>
-      {% endfor %}
 
+<h1 id = "Other Projects">Other Projects</h1>
+<div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-center">  
+    {% for feature in site.data.other %}
+    <div class="col-20 col-md-10 col-lg-5 mb-2">
+      <a href= "{{ feature.link }}" >
+        <div class="feature">
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </a>
     </div>
+    {% endfor %}
+
   </div>
 </div>
+
