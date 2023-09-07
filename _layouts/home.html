@@ -52,12 +52,15 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
-      <div class="col-20 col-md-10 col-lg-5 mb-2">
-        <div class="feature">
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
+      <a href= "{{ feature.link }}" >
+        <div class="col-20 col-md-10 col-lg-5 mb-2">
+          <div class="feature">
+            <h2 class="feature-title">{{ feature.title }}</h2>
+            <div class="feature-content">{{ feature.description }}</div>
+          </div>
         </div>
-      </div>
+      </a>
+      
       {% endfor %}
 
     </div>

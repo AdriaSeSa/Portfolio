@@ -6,7 +6,8 @@
       "url": "images/features/noun_branding_1885335.svg",
       "width": 180,
       "height": 120
-    }
+    },
+    "link": "https://github.com/ProjectWastelanders/ProjectWastelanders"
   },
   {
     "title": "Hello Engine",
@@ -14,7 +15,8 @@
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 180,
-      "height": 120    }
+      "height": 120    },
+      "link": "https://github.com/ProjectWastelanders/ProjectWastelanders"
   },
   {
     "title": "Pirates",
@@ -22,6 +24,7 @@
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 180,
-      "height": 120    }
+      "height": 120    },
+      "link": "https://github.com/ProjectWastelanders/ProjectWastelanders"
   }
 ]
